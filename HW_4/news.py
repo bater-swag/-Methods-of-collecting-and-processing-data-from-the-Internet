@@ -90,7 +90,7 @@ def get_news_lenta():
         else:
             continue
     load_to_base('news', 'news_parser_db')
-    return news
+    return news_dict
 
 
 def load_to_base(db_name, collection_name, news_list):
